@@ -1,4 +1,4 @@
-: Windows - LiteManager
+name: Windows - LiteManager
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Start Building...
-    runs-on: windows-latestname
+    runs-on: windows-latest
     timeout-minutes: 9999
     
     steps:
